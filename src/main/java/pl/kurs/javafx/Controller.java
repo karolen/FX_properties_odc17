@@ -17,11 +17,12 @@ public class Controller {
 	@FXML
 	public void initialize() {
 		textField.setText(person.getName());
+		labelName.setText(person.getName());
 		}
 	
 	@FXML
 	public void write() {
-		
+		labelName.setText(textField.getText());
 	}
 			
 
